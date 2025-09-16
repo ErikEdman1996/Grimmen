@@ -56,8 +56,8 @@ main {
 }
 
 .hero-img {
-    width: 50%;      /* scales the image to half its container width */
-    height: auto;    /* keeps the aspect ratio */
+    width: 50%;      /* Desktop: half width */
+    height: auto;    /* Keep aspect ratio */
     border: 4px solid #222;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(100, 100, 150, 0.6);
@@ -133,7 +133,7 @@ footer {
     }
 
     .hero-img {
-        max-width: 90%;
+        width: 80%;   /* Bigger on tablets */
     }
 }
 
@@ -155,6 +155,6 @@ footer {
     }
 
     .hero-img {
-        width: 95%;
+        width: 95%;   /* Nearly full width on phones */
     }
 }
